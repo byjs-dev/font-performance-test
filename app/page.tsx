@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="flex min-h-screen max-w-3xl flex-col mx-auto gap-2 p-24">
+    <div className="flex min-h-screen max-w-3xl flex-col mx-auto gap-2 p-24 font-roboto">
       <header>
         <h1 className="font-black text-xl">FONT PERFORMANCE TEST</h1>
       </header>

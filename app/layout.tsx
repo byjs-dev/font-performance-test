@@ -1,8 +1,12 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Roboto_Flex } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
-const inter = Inter({ subsets: ["latin"] });
+const roboto_flex = Roboto_Flex({
+  subsets: ["latin"],
+  variable: "--font-roboto-flex",
+  display: "swap",
+});
 
 export const metadata = {
   title: "font performance test",
@@ -15,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
+    <html lang="en" className={`${roboto_flex.variable}`}>
+      <body>
         {children}
         <Analytics />
       </body>
