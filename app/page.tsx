@@ -7,7 +7,7 @@ export default function Home() {
         </h1>
         <br />
         <h1 className="zep-headline-xl-condensed">
-          Let's do the work - ROBOTO FLEX BOLD
+          Let&#39;s do the work - ROBOTO FLEX BOLD
         </h1>
       </header>
       <main>
@@ -17,7 +17,7 @@ export default function Home() {
         <p>
           Roboto Flex regular - Labore eu eu culpa est voluptate. Incididunt
           deserunt commodo id labore velit adipisicing cupidatat nisi est
-          occaecat laborum cillum nostrud. Eiusmod aliquip ut commodo anim
+          occaecat laborum cillum nostrud. Eiusmod aliquip ut commodo anim,
           eiusmod consectetur consequat voluptate magna. Excepteur dolor fugiat
           fugiat eu. Aute quis voluptate id do voluptate qui.
         </p>

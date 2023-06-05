@@ -27,7 +27,6 @@ module.exports = {
           fontWeight: 1000,
           lineHeight: "36px",
           fontSize: "28px",
-          // fontStyle: "italic",
           letterSpacing: "0.0012em",
           textTransform: "uppercase",
           fontStretch: "108%",
