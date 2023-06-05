@@ -2,7 +2,13 @@ export default function Home() {
   return (
     <div className="flex min-h-screen max-w-3xl flex-col mx-auto gap-2 p-24 font-roboto">
       <header>
-        <h1 className="font-black text-xl italic">TITLE - ROBOTO FLEX BLACK</h1>
+        <h1 className="zep-headline-xl-italic">
+          Wir haben das Zeug dazu! - ROBOTO FLEX BLACK
+        </h1>
+        <br />
+        <h1 className="zep-headline-xl-condensed">
+          Let's do the work - ROBOTO FLEX BOLD
+        </h1>
       </header>
       <main>
         <h2 className="mt-8 mb-6 text-lg font-bold">
