@@ -7,19 +7,7 @@ const roboto_flex = Roboto_Flex({
   subsets: ["latin"],
   variable: "--font-roboto-flex",
   display: "swap",
-  axes: [
-    "GRAD",
-    "XTRA",
-    "YOPQ",
-    "YTAS",
-    "YTDE",
-    "YTFI",
-    "YTLC",
-    "YTUC",
-    "opsz",
-    "slnt",
-    "wdth",
-  ],
+  axes: ["GRAD", "XTRA", "YOPQ", "opsz", "slnt", "wdth"],
 });
 
 // const univers_next = localFont({
