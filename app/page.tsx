@@ -1,4 +1,4 @@
-const FONT: "roboto_flex" | "univers" | "roboto" = "roboto";
+const FONT: "roboto_flex" | "univers" | "roboto" = "roboto_flex";
 
 export default function Home() {
   return (

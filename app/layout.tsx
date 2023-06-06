@@ -82,8 +82,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`
-        ${roboto.variable}
-        ${roboto_condensed.variable}
+        ${roboto_flex.variable}
         `}
       >
         {children}
