@@ -1,14 +1,28 @@
 import "./globals.css";
 import localFont from "next/font/local";
-//import { Roboto_Flex } from "next/font/google";
+import { Roboto_Flex, Roboto, Roboto_Condensed } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 
-// const roboto_flex = Roboto_Flex({
-//   subsets: ["latin"],
-//   variable: "--font-roboto-flex",
-//   display: "swap",
-//   axes: ["GRAD", "XTRA", "YOPQ", "opsz", "slnt", "wdth"],
-// });
+const roboto_flex = Roboto_Flex({
+  subsets: ["latin"],
+  variable: "--font-roboto-flex",
+  display: "swap",
+  axes: ["GRAD", "XTRA", "YOPQ", "opsz", "slnt", "wdth"],
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["400", "500", "700", "900"],
+  variable: "--font-roboto",
+  display: "swap",
+});
+
+const roboto_condensed = Roboto_Condensed({
+  subsets: ["latin"],
+  weight: ["700"],
+  variable: "--font-roboto-condensed",
+  display: "swap",
+});
 
 const univers = localFont({
   src: [
@@ -66,7 +80,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${univers.variable} ${univers_condensed.variable}`}>
+      <body
+        className={`
+        ${roboto.variable}
+        ${roboto_condensed.variable}
+        `}
+      >
         {children}
         <Analytics />
       </body>
