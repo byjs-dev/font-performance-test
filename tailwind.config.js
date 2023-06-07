@@ -13,8 +13,6 @@ module.exports = {
         roboto: ["var(--font-roboto)", "sans-serif"],
         roboto_condensed: ["var(--font-roboto-condensed)", "sans-serif"],
         roboto_flex: ["var(--font-roboto-flex)", "sans-serif"],
-        univers: ["var(--font-univers)", "sans-serif"],
-        univers_condensed: ["var(--font-univers-condensed)", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -63,24 +61,6 @@ module.exports = {
         },
         ".zep-headline-xl-condensed-roboto": {
           fontFamily: "var(--font-roboto-condensed)",
-          fontWeight: 700,
-          lineHeight: "36px",
-          fontSize: "28px",
-          textTransform: "uppercase",
-        },
-
-        // univers
-        ".zep-headline-xl-italic-univers": {
-          fontFamily: "var(--font-univers)",
-          fontWeight: 900,
-          lineHeight: "36px",
-          fontSize: "28px",
-          letterSpacing: "0.0012em",
-          textTransform: "uppercase",
-          fontStyle: "italic",
-        },
-        ".zep-headline-xl-condensed-univers": {
-          fontFamily: "var(--font-univers-condensed)",
           fontWeight: 700,
           lineHeight: "36px",
           fontSize: "28px",
